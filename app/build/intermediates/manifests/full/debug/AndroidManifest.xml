@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hardware"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        android:maxSdkVersion="21" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/customizationicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hardware.Splash"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hardware.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Accelarometer"
+            android:label="@string/title_activity_accelarometer" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Magneticsensor"
+            android:label="@string/title_activity_magneticsensor" >
+        </activity>
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAGNETICSENSOR" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity
+            android:name="com.example.hardware.Gyroscope"
+            android:label="@string/title_activity_gyroscope" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Batteryindicator"
+            android:label="@string/title_activity_batteryindicator" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Gpsloc"
+            android:label="@string/title_activity_gpsloc" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Wifiaddress"
+            android:label="@string/title_activity_wifiaddress" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Blueadd"
+            android:label="@string/title_activity_blueadd" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Headphone"
+            android:label="@string/title_activity_headphone" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Vibration"
+            android:label="@string/title_activity_vibration" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Tele"
+            android:label="@string/title_activity_tele" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Systeminfo"
+            android:label="@string/title_activity_systeminfo" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.NotificationLight"
+            android:label="@string/title_activity_notification_light" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.TouchSensor"
+            android:label="@string/title_activity_touch_sensor" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Display"
+            android:label="@string/title_activity_button" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.ProximitySensor"
+            android:label="@string/title_activity_proximity_sensor" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Lightsensor"
+            android:label="@string/title_activity_lightsensor" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Buttontesting"
+            android:label="@string/title_activity_buttontesting" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Mictesting"
+            android:label="@string/title_activity_mictesting" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Pressure"
+            android:label="@string/title_activity_pressure" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Flash"
+            android:label="@string/title_activity_flash" >
+        </activity>
+        <activity
+            android:name="com.example.hardware.Gravitysensor"
+            android:label="@string/title_activity_gravitysensor" >
+        </activity>
+    </application>
+
+</manifest>

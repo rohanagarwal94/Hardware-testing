@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hardware Testing</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Hardware Testing</string>
+    <string name="title_activity_accelarometer">Accelarometer</string>
+    <string name="title_activity_magneticsensor">Magnetic Sensor</string>
+    <string name="title_activity_gyroscope">Gyroscope</string>
+    <string name="title_activity_batteryindicator">Battery Indicator</string>
+    <string name="title_activity_gpsloc">Gps Location</string>
+    <string name="title_activity_wifiaddress">Wifi Address</string>
+    <string name="title_activity_blueadd">Bluetooth Address</string>
+    <string name="title_activity_headphone">Headphone</string>
+    <string name="title_activity_vibration">Vibration</string>
+    <string name="title_activity_tele">Sim Card</string>
+    <string name="title_activity_systeminfo">System Info</string>
+    <string name="title_activity_notification_light">NotificationLight</string>
+    <string name="title_activity_touch_sensor">Touch Sensor</string>
+    <string name="title_activity_button">Display Testing</string>
+    <string name="title_activity_proximity_sensor">Proximity Sensor</string>
+    <string name="title_activity_lightsensor">Light Sensor</string>
+    <string name="title_activity_buttontesting">Button Testing</string>
+    <string name="title_activity_mictesting">Speaker Testing</string>
+    <string name="title_activity_pressure">Pressure Sensor</string>
+    <string name="title_activity_gravitysensor">Gravity Sensor</string>
+    <string name="title_activity_flash">Flash Light</string>
+
+</resources>

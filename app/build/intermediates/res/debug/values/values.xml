@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/rohanpc/AndroidStudioProjects/Hardware/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/rohanpc/AndroidStudioProjects/Hardware/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Hardware Testing</string>
+    <string name="title_activity_accelarometer">Accelarometer</string>
+    <string name="title_activity_batteryindicator">Battery Indicator</string>
+    <string name="title_activity_blueadd">Bluetooth Address</string>
+    <string name="title_activity_button">Display Testing</string>
+    <string name="title_activity_buttontesting">Button Testing</string>
+    <string name="title_activity_flash">Flash Light</string>
+    <string name="title_activity_gpsloc">Gps Location</string>
+    <string name="title_activity_gravitysensor">Gravity Sensor</string>
+    <string name="title_activity_gyroscope">Gyroscope</string>
+    <string name="title_activity_headphone">Headphone</string>
+    <string name="title_activity_lightsensor">Light Sensor</string>
+    <string name="title_activity_magneticsensor">Magnetic Sensor</string>
+    <string name="title_activity_mictesting">Speaker Testing</string>
+    <string name="title_activity_notification_light">NotificationLight</string>
+    <string name="title_activity_pressure">Pressure Sensor</string>
+    <string name="title_activity_proximity_sensor">Proximity Sensor</string>
+    <string name="title_activity_splash">Hardware Testing</string>
+    <string name="title_activity_systeminfo">System Info</string>
+    <string name="title_activity_tele">Sim Card</string>
+    <string name="title_activity_touch_sensor">Touch Sensor</string>
+    <string name="title_activity_vibration">Vibration</string>
+    <string name="title_activity_wifiaddress">Wifi Address</string>
+    <!-- From: file:/C:/Users/rohanpc/AndroidStudioProjects/Hardware/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
