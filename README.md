@@ -26,6 +26,6 @@ Download the `.apk` file from the below link to your Android smartphone.
 [https://www.dropbox.com/s/oztt3gt0npc5wn8/Hardware.apk](https://www.dropbox.com/s/oztt3gt0npc5wn8/Hardware.apk)
 
 # Screenshots from The App
-<img src="https://github.com/mridulg/Hardware-testing/screenshots/ss-1.png" width="150">
-<img src="https://github.com/mridulg/Hardware-testing/screenshots/ss-2.png" width="150">
-<img src="https://github.com/mridulg/Hardware-testing/screenshots/ss-3.png" width="150">
+<img src="https://github.com/mridulg/Hardware-testing/blob/master/screenshots/ss-1.png" width="150">
+<img src="https://github.com/mridulg/Hardware-testing/blob/master/screenshots/ss-2.png" width="150">
+<img src="https://github.com/mridulg/Hardware-testing/blob/master/screenshots/ss-3.png" width="150">
