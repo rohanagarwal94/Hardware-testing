@@ -28,6 +28,6 @@ Download the `.apk` file from the below link to your Android smartphone.
 # Screenshots from The App
   
 
-<img src="https://github.com/mridulg/Hardware-testing/blob/master/screenshots/ss-1.png" height="200">
+<img src="https://github.com/mridulg/Hardware-testing/blob/master/screenshots/ss-1.png" height="800">
 <img src="https://github.com/mridulg/Hardware-testing/blob/master/screenshots/ss-2.png">
 <img src="https://github.com/mridulg/Hardware-testing/blob/master/screenshots/ss-3.png">
