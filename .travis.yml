@@ -1,0 +1,33 @@
+language: android
+jdk: oraclejdk7
+sudo: false
+
+env:
+  global:
+    - GRADLE_OPTS="-XX:MaxPermSize=4g -Xmx4g"
+    - ANDROID_SDKS=android-23
+    - ANDROID_TARGET=android-23
+
+android:
+  components:
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - extra-android-support
+    - platform-tools
+    - tools
+    - build-tools-23.0.1
+    - android-23
+
+script:
+  - cd src
+  - ./gradlew build
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+
+notifications:
+  email:
+      recipients:
+        - rohanagarwal94@yahoo.com.sg
+      on_failure: always
+      on_success: never
